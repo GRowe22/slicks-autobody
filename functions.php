@@ -42,6 +42,38 @@ function blank_widgets_init() {
         'after_title' => '</h2>'
         ));
 
+/*--- Services Widgets --- */
+    register_sidebar( array(
+        'name' => ('Services Widget Left'),
+        'id' => 'services-widget-left',
+        'description' => 'Services Widget Left',
+        'before_widget' => '<div class="widget-serv-left">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>'
+        ));
+
+/*--- Services Widgets --- */
+    register_sidebar( array(
+        'name' => ('Services Widget Right'),
+        'id' => 'services-widget-right',
+        'description' => 'Services Widget Right',
+        'before_widget' => '<div class="widget-serv-right">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>'
+        ));
+
+/*--- Testimonial Widgets --- */
+    register_sidebar( array(
+        'name' => ('Testimonial Widget Left'),
+        'id' => 'testimonial-widget-left',
+        'description' => 'Third widget for our footer',
+        'before_widget' => '<div class="widget-footer">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>'
+        ));
 }
 
 add_action('widgets_init', 'blank_widgets_init');

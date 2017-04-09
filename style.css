@@ -17,7 +17,6 @@ html,
 body {
     color: #000000;
     font-size: 14px;
-    line-height: 1.5em;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -27,7 +26,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #999999;
+    color: #ffffff;
     font-weight: 700;
 }
 
@@ -85,7 +84,7 @@ nav {
 }
 
 .menu-button {
-    margin: 20px 0px;
+    margin: 20px 15px;
 }
 
 button {
@@ -110,6 +109,24 @@ button {
     color: white;
 }
 
-img {
+.full-width-img {
     width: 100%;
+}
+
+.services,
+.banner {
+    background-color: #262626;
+}
+
+.services {
+    padding-top: 30px;
+}
+
+.textwidget p,
+p {
+    color: #dfdfdf;
+}
+
+.icons {
+    padding-top: 20px;
 }
