@@ -5,7 +5,7 @@ Author: Greg Rowe
 Description: Final Project Theme for WIE course
 Version: 0.1
 License: Open
-Text Domain: 
+Text Domain:
 */
 
 
@@ -55,8 +55,9 @@ a {
 /*--- Menu --- */
 
 .blank-menu-header {
-    text-align: right;
-    margin-top: 40px;
+    text-align: left;
+    margin: 30px 0px 25px 0px;
+    color: #ffffff;
 }
 .blank-menu-header ul {
     margin: 0;
@@ -70,10 +71,45 @@ a {
 .blank-menu-header ul li a {
     text-decoration:none;
     margin: 4px;
-    padding: 5px 0px 5px 40px;
-    font-weight: 300;
-    font-size: 1.1rem;
+    padding: 5px 0px 0px 40px;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #ffffff
 }
 .blank-menu-header ul li a:hover {
-    color: #cccccc;
+    color: #797676;
+}
+
+nav {
+    background-color: #262626;
+}
+
+.menu-button {
+    margin: 20px 0px;
+}
+
+button {
+    background-color: #fffff;
+}
+
+
+/* Button inverted */
+
+.button.inverted {
+    font-size: inherit;
+    padding: 0px 15px;
+    color: #222222;
+    height: auto;
+    border: 1px solid white;
+    text-transform: none;
+    background: white;
+}
+
+.button.inverted:hover {
+    background-color: #262626;
+    color: white;
+}
+
+img {
+    width: 100%;
 }
