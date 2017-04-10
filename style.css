@@ -163,3 +163,8 @@ footer {
 .contact-info-item {
     padding-top: 25px;
 }
+
+.page-style {
+    background-color: #262626;
+    padding: 30px;    
+}

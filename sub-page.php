@@ -9,7 +9,7 @@
 </div>
 <div class="container page-style">
     <section class="row">
-        <div class="eight columns">
+        <div class="twelve columns">
 <!-- BEGIN PAGE PHP -->
             <?php if (have_posts()) {
                 while (have_posts()) {
@@ -22,11 +22,6 @@
             } ?>
 <!-- END PAGE PHP -->
         </div>
-
-        <div class="four columns">
-            <?php get_sidebar(); ?>
-        </div>
-
     </section>
 </div>
 
