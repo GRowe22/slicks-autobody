@@ -76,6 +76,13 @@
     </div>
 </div>
 
+<div class="container">
+    <div class="row">
+        <div class="twelve columns">
+            <img class="full-width-img" src="http://gator-rowe.com/wp-content/uploads/2017/04/photo-banner.jpg"/>
+        </div>
+    </div>
+</div>
 
 <!-- End Section Container -->
 <?php get_footer(); ?>
