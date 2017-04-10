@@ -1,3 +1,5 @@
+<?php /* Template Name: Sub-Page */ ?>
+
 <?php get_header(); ?>
 
 <div class="container banner">
