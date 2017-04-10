@@ -74,6 +74,28 @@ function blank_widgets_init() {
         'before_title' => '<h2>',
         'after_title' => '</h2>'
         ));
+
+/*--- Testimonial Widgets --- */
+    register_sidebar( array(
+        'name' => ('Testimonial Widget Center'),
+        'id' => 'testimonial-widget-center',
+        'description' => 'Third widget for our footer',
+        'before_widget' => '<div class="widget-footer">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>'
+        ));
+
+/*--- Testimonial Widgets --- */
+    register_sidebar( array(
+        'name' => ('Testimonial Widget Right'),
+        'id' => 'testimonial-widget-right',
+        'description' => 'Third widget for our footer',
+        'before_widget' => '<div class="widget-footer">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>'
+        ));
 }
 
 add_action('widgets_init', 'blank_widgets_init');

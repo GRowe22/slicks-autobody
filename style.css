@@ -130,3 +130,10 @@ p {
 .icons {
     padding-top: 20px;
 }
+
+.testimonials {
+    padding-top: 30px; 
+    background: url("http://gator-rowe.com/wp-content/uploads/2017/04/car-paint-dark-background.jpg") no-repeat;
+    background-size: 100%;
+    background-color: #262626;
+}

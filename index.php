@@ -36,7 +36,7 @@
 
                     <div class="eight columns">
                         <p>
-                            Slick's Auto Body is the Seattle area’s premier full-service facility. We treat our customers like family, and customer service like an art.Come to us for total car care that can fix any performance issue you bring us
+                            Slick's Auto Body is the Seattle area’s premier full-service facility. We treat our customers like family, and customer service like an art. Come to us for total car care that can fix any performance issue you bring us
                         </p>
                     </div>
 
@@ -54,5 +54,28 @@
         </div>
     </div>
 </div>
+
+<div class="container testimonials">
+    <div class="row">
+        <div class="twelve columns offset-by-four">
+            <h1>Testimonials</h1>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="three columns offset-by-one">
+            <?php dynamic_sidebar('testimonial-widget-left'); ?>
+        </div>
+        <div class="three columns offset-by-one">
+            <?php dynamic_sidebar('testimonial-widget-center'); ?>
+        </div>
+        <div class="three columns offset-by-one">
+            <?php dynamic_sidebar('testimonial-widget-right'); ?>
+        </div>
+    </div>
+</div>
+
+
 <!-- End Section Container -->
 <?php get_footer(); ?>
