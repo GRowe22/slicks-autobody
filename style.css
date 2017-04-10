@@ -114,7 +114,8 @@ button {
 }
 
 .services,
-.banner {
+.banner,
+.image-banner {
     background-color: #262626;
 }
 
@@ -136,4 +137,9 @@ p {
     background: url("http://gator-rowe.com/wp-content/uploads/2017/04/car-paint-dark-background.jpg") no-repeat;
     background-size: 100%;
     background-color: #262626;
+}
+
+footer {
+    background-color: #262626;
+    padding-left: 20px;
 }

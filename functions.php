@@ -42,6 +42,17 @@ function blank_widgets_init() {
         'after_title' => '</h2>'
         ));
 
+/*--- Third New Widget --- */
+    register_sidebar( array(
+        'name' => ('Footer Widget Four'),
+        'id' => 'footer-widget-four',
+        'description' => 'Fourth widget for our footer',
+        'before_widget' => '<div class="widget-footer">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>'
+        ));
+
 /*--- Services Widgets --- */
     register_sidebar( array(
         'name' => ('Services Widget Left'),
