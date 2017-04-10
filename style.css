@@ -143,3 +143,23 @@ footer {
     background-color: #262626;
     padding-left: 20px;
 }
+
+.why-us h5{
+    padding-top: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.why-us p{
+    padding-top: 0px;
+    margin-top: 5px;
+    padding-bottom: 30px;
+}
+
+.contact-info a {
+    color: white;
+}
+
+.contact-info-item {
+    padding-top: 25px;
+}
