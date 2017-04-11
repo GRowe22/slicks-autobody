@@ -11,7 +11,7 @@ Text Domain:
 
 @import url("css/normalize.css");
 @import url("css/skeleton.css");
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
 
 html,
 body {
@@ -39,9 +39,11 @@ h2 {
 }
 h3 {
     font-size: 2.0rem;
+    margin-bottom: 10px;
 }
 h4 {
     font-size: 1.5rem;
+    margin-bottom: 10px;
 }
 h5 {
     font-size: 1.0rem;
@@ -126,6 +128,8 @@ button {
 .textwidget p,
 p {
     color: #dfdfdf;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .icons {
@@ -166,5 +170,15 @@ footer {
 
 .page-style {
     background-color: #262626;
-    padding: 30px;    
+    padding: 30px;
+}
+
+.light-font,
+p {
+    font-weight: 300;
+}
+
+.alignright {
+    float: right !important;
+    margin: 0 0 15px 20px !important;
 }
