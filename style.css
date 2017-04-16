@@ -44,6 +44,7 @@ h3 {
 h4 {
     font-size: 1.5rem;
     margin-bottom: 10px;
+    font-weight: 500;
 }
 h5 {
     font-size: 1.0rem;
@@ -53,6 +54,9 @@ a {
     text-decoration: none;
 }
 
+p {
+    margin-bottom: 10px;
+}
 /*--- Menu --- */
 
 .blank-menu-header {
@@ -181,4 +185,9 @@ p {
 .alignright {
     float: right !important;
     margin: 0 0 15px 20px !important;
+}
+
+.alignleft {
+    float: left !important;
+    margin: 0 20px 15px 0px !important;
 }

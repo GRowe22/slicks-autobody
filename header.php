@@ -18,7 +18,7 @@
                 </div>
             <!-- Add Search Form -->
                 <div class="four columns menu-button">
-                    <a class="button inverted" href="#">Schedule Appointment</a>
+                    <a class="button inverted" href="http://gator-rowe.com/index.php/appointment/">Schedule Appointment</a>
                 </div>
             </nav>
     </div>
