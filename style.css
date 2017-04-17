@@ -256,3 +256,9 @@ p {
 .navigation li.active a {
     background-color: #797676;
 }
+
+.fourohfour-img {
+    padding: 40px 0px;
+    margin: auto;
+    display: block;
+}
