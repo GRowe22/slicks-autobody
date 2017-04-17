@@ -192,7 +192,8 @@ p {
     margin: 0 20px 15px 0px !important;
 }
 
-.post-tile img {
+.post-tile img,
+.post-thumbnail img {
     max-width: 100%;
     height: auto;
 }
@@ -258,7 +259,22 @@ p {
 }
 
 .fourohfour-img {
-    padding: 40px 0px;
     margin: auto;
     display: block;
+}
+
+.searchform {
+    color: white;
+}
+
+.post-entry-content {
+    color: white;
+}
+
+.post-entry-content li {
+    font-weight: lighter;
+}
+
+.thin-post {
+    max-width: 740px;
 }

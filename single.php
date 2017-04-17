@@ -10,7 +10,7 @@
 
 <div class="container page-style">
     <section class="row">
-        <div class="twelve columns">
+        <div class="twelve columns offset-by-one thin-post ">
             <?php
                 if (have_posts()) :
                     while (have_posts()) : the_post();

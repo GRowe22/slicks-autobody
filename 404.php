@@ -9,10 +9,10 @@
     </div>
 </div>
 
-<div class="container">
+<div class="container page-style">
     <div class="row">
         <div class="nine columns">
-            <img class="fourohfour-img" src="http://gator-rowe.com/wp-content/uploads/2017/04/Small-White-Logo-e1491859440589.png" />
+            <img class="fourohfour-img" src="http://gator-rowe.com/wp-content/uploads/2017/04/Slicks-Logo-cutout-white-e1492461425958.png" />
             <h1>...oops, page not found</h1>
             <p>It looks like nothing was found at this location. Maybe try searching for what you are looking for?</p>
             <?php get_search_form(); ?>
