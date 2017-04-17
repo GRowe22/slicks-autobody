@@ -199,11 +199,30 @@ p {
 
 .post-tile ,
 .post-tile h4,
-.post-tile a {
+.post-tile a,
+.page-style a {
     color: white;
 }
 
-.post-tile a:hover {
+.sidebar-style a,
+.sidebar-style h5,
+.sidebar-style {
+    color: #b6b3b3;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.sidebar-style h4 {
+    margin-bottom: 0px;
+}
+
+.sidebar-style h5 {
+    margin-top: 15px;
+}
+
+.post-tile a:hover,
+.page-style a:hover,
+.sidebar-style a:hover {
     color: #797676;
 }
 
