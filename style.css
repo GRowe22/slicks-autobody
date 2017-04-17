@@ -278,3 +278,11 @@ p {
 .thin-post {
     max-width: 740px;
 }
+
+.testimonials {
+    padding-bottom: 50px;
+}
+
+.services p {
+    padding-bottom: 30px;
+}
